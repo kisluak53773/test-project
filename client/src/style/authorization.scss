@@ -1,0 +1,26 @@
+.auth{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid $color_1;
+        padding:50px;
+        width: 30%;
+        border-radius: 2%;
+        input{
+            border:1px solid  $color_1;
+            margin: 5px;
+            width: 100%;
+            height: 25px;
+        }
+        .submit{
+            margin-top:10px;
+            margin-left: auto;
+        }
+    }
+}

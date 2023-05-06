@@ -1,0 +1,14 @@
+.orders{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+    .search{
+        width: 277px;
+        height: 20px;
+        align-self: center;
+        justify-self: center;
+        border: 1px solid $color_1;
+    }
+}

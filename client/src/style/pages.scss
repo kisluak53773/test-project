@@ -1,0 +1,25 @@
+.pages{
+    margin:auto;
+    display: flex;
+    .page{
+        border: 1px solid $main_color;
+        width:30px;
+        height: 30px;
+        text-align: center;
+        margin: 2px;
+        cursor: pointer;
+        &:hover{
+            color: white;
+            background-color: $main_color;
+          }
+    }
+    .page_active{
+        border: 1px solid $main_color;
+        width:30px;
+        height: 30px;
+        text-align: center;
+        margin: 2px;
+        color: white;
+        background-color: $main_color;
+    }
+}

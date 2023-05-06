@@ -1,0 +1,15 @@
+.typeBar{
+  font-family: "Pacifico";
+  display: flex;
+  margin-top: 75px;
+  align-items: center;
+  width: 100%;
+  justify-content: center ;
+  .typeBar__type{
+    margin: 10px;
+    cursor: pointer;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

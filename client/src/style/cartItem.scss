@@ -1,0 +1,43 @@
+@import "./adaptive.scss";
+
+.cart__item{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    width: 80%;
+    border: 1px solid $main_color;
+    border-radius: 1%;
+    justify-items: center;
+    align-items: center;
+    .cart__item__image{
+        border-radius: 1%;
+        max-width: 100%;
+        height: 70px;
+    }
+    .cart__item__title{
+        font-size: 26px;
+    }
+    .cart__item__bin{
+        cursor: pointer;
+        color: $main_color;
+        font-size: 26px;
+    }
+    .cart__item__amount{
+        display: grid;
+        width: 100%;
+        grid-template-columns:1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        user-select: none;
+    }
+    @include breakpoint(sm){
+        width:90%;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        .cart__item__image{
+            display:none;
+        }
+        .cart__item__amount{
+            margin-left: 15px;
+        }
+    }
+}

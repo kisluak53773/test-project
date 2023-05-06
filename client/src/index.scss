@@ -1,0 +1,74 @@
+@import-normalize;
+
+$main_color:rgb(247, 167, 19);
+$color_1:rgb(187, 185, 185);
+
+@import "./style/error.scss";
+@import "./style/cartItem.scss";
+@import "./style/cartList.scss";
+@import "./style/cartForm.scss";
+@import "./style/footer.scss";
+@import "./style/pages.scss";
+@import "./style/orderList.scss";
+@import "./style/orderItem.scss";
+@import "./style/cart.scss";
+@import "./style/popup.scss";
+@import "./style/admin.scss";
+@import "./style/productitem.scss";
+@import "./style/productlist.scss";
+@import "./style/navbar.scss";
+@import "./style/authorization.scss";
+@import "./style/typebar.scss";
+
+button{
+  background-color: white;
+  border: 1px solid $main_color;
+  border-radius: 5%;
+  color: $main_color;
+  padding: 5px;
+  cursor: pointer;
+  &:hover{
+    color: white;
+    background-color: $main_color;
+  }
+}
+
+.submit{
+  background-color: white;
+  border: 1px solid $main_color;
+  border-radius: 5%;
+  color: $main_color;
+  padding: 5px;
+  cursor: pointer;
+  &:hover{
+    color: white;
+    background-color: $main_color;
+  }
+}
+
+.amountButton{
+  cursor: pointer;
+  border: 1px solid $main_color;
+  border-radius: 50%;
+  padding: 5px;
+  color: $main_color;
+  &:hover{
+      color:white;
+      background-color: $main_color;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

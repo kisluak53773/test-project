@@ -1,0 +1,33 @@
+.order{
+    border:1px solid $main_color;
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr 1fr 1fr 1fr;
+    width:80%;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .order__description{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .order__contacts{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3px;
+    }
+    .textCenter{
+        text-align: center;
+        margin-right: 5px;
+    }
+    .order__status{
+        button{
+            margin:5px;
+            width:80%;
+        }
+    }
+}

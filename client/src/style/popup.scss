@@ -1,0 +1,82 @@
+.popup{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.5s;
+    .popup__content{
+        padding: 20px;
+        border-radius: 12px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        .popup__content__select{
+            margin-bottom: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            label{
+                margin-right: 7px;
+            }
+        }
+        button{
+            width: 50%;
+        }
+        .popup__content__title{
+            font-family: "PT Sans";
+            text-align: center;
+        }
+        .popup__content__inputFile{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width:80px;
+                height:80px;
+                margin-left: 5px;
+            }
+            .popup__content__inputFile__button{
+                margin-right: 5px;
+                font-size: 14px;
+                background-color: white;
+                border: 1px solid $main_color;
+                border-radius: 5%;
+                color: $main_color;
+                padding: 5px;
+                cursor: pointer;
+                &:hover{
+                  color: white;
+                  background-color: $main_color;
+                }
+            }
+            .popup__content__inputFile__input{
+                display: none;
+            }
+        }
+        input{
+            width: 100%;
+            margin: 7px;
+            border: 1px solid $color_1;
+        }
+        .popup__content__inputFile{
+            border: none;
+        }
+        .popup__content__close{
+            margin-left: auto;
+            cursor: pointer;
+            color: $main_color;
+        }
+    }
+    &.active{
+        transform: scale(1);
+    }
+}

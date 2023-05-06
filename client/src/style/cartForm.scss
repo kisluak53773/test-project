@@ -1,0 +1,35 @@
+.cart__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    width:100%;
+    .cart__data{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+    .finalPrice{
+        margin-top:10px
+    }
+    .payment{
+        margin-top: 10px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .comment{
+        display:grid;
+        grid-template-columns: 1fr;
+        textarea{
+            height: auto;
+            min-height: 10%px;
+            max-width: none;
+            padding: 10px;
+        }
+    }
+    .submit{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

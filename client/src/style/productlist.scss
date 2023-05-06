@@ -1,0 +1,17 @@
+@import "./adaptive.scss";
+
+.productList{
+  width: 80%;
+  margin: auto;
+  display: grid;;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  @include breakpoint(lg){
+    grid-template-columns: 1fr 1fr;
+  }
+  @include breakpoint(sm){
+    grid-template-columns: 1fr;
+    margin-right: 40px;
+  }
+}
