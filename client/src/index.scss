@@ -3,22 +3,22 @@
 $main_color:rgb(247, 167, 19);
 $color_1:rgb(187, 185, 185);
 
-@import "./style/error.scss";
-@import "./style/cartItem.scss";
-@import "./style/cartList.scss";
-@import "./style/cartForm.scss";
-@import "./style/footer.scss";
-@import "./style/pages.scss";
-@import "./style/orderList.scss";
-@import "./style/orderItem.scss";
-@import "./style/cart.scss";
-@import "./style/popup.scss";
-@import "./style/admin.scss";
-@import "./style/productitem.scss";
-@import "./style/productlist.scss";
-@import "./style/navbar.scss";
-@import "./style/authorization.scss";
-@import "./style/typebar.scss";
+@import "./style/_error.scss";
+@import "./style/_cartItem.scss";
+@import "./style/_cartList.scss";
+@import "./style/_cartForm.scss";
+@import "./style/_footer.scss";
+@import "./style/_pages.scss";
+@import "./style/_orderList.scss";
+@import "./style/_orderItem.scss";
+@import "./style/_cart.scss";
+@import "./style/_popup.scss";
+@import "./style/_admin.scss";
+@import "./style/_productitem.scss";
+@import "./style/_productlist.scss";
+@import "./style/_navbar.scss";
+@import "./style/_authorization.scss";
+@import "./style/_typebar.scss";
 
 button{
   background-color: white;

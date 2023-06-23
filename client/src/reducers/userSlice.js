@@ -11,7 +11,6 @@ const initialState = {
 export const fetchUser = createAsyncThunk(
   "user/login",
   async ({ email, password }) => {
-    console.log("email" + email + " password" + password);
     const user = await loginUser(email, password);
     return user;
   }
