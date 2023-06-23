@@ -3,22 +3,22 @@
 $main_color:rgb(247, 167, 19);
 $color_1:rgb(187, 185, 185);
 
-@import "./style/_error.scss";
-@import "./style/_cartItem.scss";
-@import "./style/_cartList.scss";
-@import "./style/_cartForm.scss";
-@import "./style/_footer.scss";
-@import "./style/_pages.scss";
-@import "./style/_orderList.scss";
-@import "./style/_orderItem.scss";
-@import "./style/_cart.scss";
-@import "./style/_popup.scss";
-@import "./style/_admin.scss";
-@import "./style/_productitem.scss";
-@import "./style/_productlist.scss";
-@import "./style/_navbar.scss";
-@import "./style/_authorization.scss";
-@import "./style/_typebar.scss";
+@import "./style/error";
+@import "./style/cartItem";
+@import "./style/cartList";
+@import "./style/cartForm";
+@import "./style/footer";
+@import "./style/pages";
+@import "./style/orderList";
+@import "./style/orderItem";
+@import "./style/cart";
+@import "./style/popup";
+@import "./style/admin";
+@import "./style/productitem";
+@import "./style/productlist";
+@import "./style/navbar";
+@import "./style/authorization";
+@import "./style/typebar";
 
 button{
   background-color: white;
